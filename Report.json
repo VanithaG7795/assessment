@@ -1,0 +1,66 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Applying for loan",
+        "description": "",
+        "id": "request-for-loan;applying-for-loan",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 3,
+            "name": "user is entering in the url.",
+            "match": {
+              "location": "NEW2.user_is_entering_in_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user click on Login and enter the details",
+            "match": {
+              "location": "NEW2.user_click_on_Login_and_enter_the_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "enter the loan amount and down payment",
+            "match": {
+              "location": "NEW2.enter_the_loan_amount_and_down_payment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "then user able to apply",
+            "match": {
+              "location": "NEW2.then_user_able_to_apply()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Request for loan",
+    "description": "",
+    "id": "request-for-loan",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/BillPay.feature"
+  }
+]
